@@ -1,7 +1,8 @@
-function sayHello(name) {
-  console.log("Hello, " + name);
+function ageCalculator(name, yearOfBirth, currentYear) {
+  console.log(name + ' is ' + currentYear - yearOfBirth + ' years old.');
 }
 
-sayHello("Lindsey");
-sayHello("Ali");
-sayHello("to Harvey's");
+console.log(ageCalculator("Suzie", 1984, 2016));
+console.log(ageCalculator("Jack", 2004, 2016));
+console.log(ageCalculator("Ali", 2016, 2016));
+
